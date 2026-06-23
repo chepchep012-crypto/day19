@@ -1,0 +1,661 @@
+[
+  {
+    "question": "Q1: What is Tesla's market share in the US EV market in Q1 2024?",
+    "flat_rag": {
+      "answer": "# Trả lời:\n\nDựa vào các đoạn văn bản được cung cấp, **thông tin cụ thể về thị phần của Tesla trong thị trường xe điện Mỹ Q1 2024 không được đề cập rõ ràng**.\n\nTài liệu chỉ cho biết:\n- Tổng doanh số xe điện Mỹ trong Q1 2024 là 268,909 chiếc\n- EV chiếm 7,3% tổng doanh số xe mới\n- Tesla được đề cập là \"thị trường lãnh đạo\" nhưng không có con số thị phần cụ thể\n\nĐể có câu trả lời chính xác về thị phần của Tesla trong Q1 2024, cần tham khảo các nguồn dữ liệu khác chứa thông tin chi tiết hơn.",
+      "sources": [
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "What Are Tesla's (TSLA) Main Competitors?",
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "U.S. Automobile Dealer Sentiment Index: As Market ",
+        "U.S. Automobile Dealer Sentiment Index: As Market "
+      ],
+      "tokens": 1376,
+      "time": 3.2834622859954834
+    },
+    "graph_rag": {
+      "answer": "# Trả lời: Thị phần Tesla trong thị trường xe điện Mỹ Q1 2024\n\n**Không đủ thông tin trong Knowledge Graph để trả lời câu hỏi này.**\n\nCác facts trong graph chỉ cung cấp:\n- Thị phần EV tổng thể trên thị trường ô tô Mỹ năm 2023: **7.6%**\n- Tác động của Inflation Reduction Act đối với thị trường EV Mỹ\n\nTuy nhiên, graph **không chứa dữ liệu cụ thể** về:\n- Thị phần Tesla trong Q1 2024\n- Phân chia thị phần giữa các nhà sản xuất EV\n\nĐể trả lời chính xác, cần bổ sung dữ liệu từ các báo cáo thị trường hoặc nguồn dữ liệu chuyên về phân tích cạnh tranh của Tesla.",
+      "seed_nodes": [
+        "U.S. electric vehicle and battery manufacturing markets",
+        "world's largest EV market for eighth consecutive year",
+        "2025 Investment Directions: Navigating Market Trends",
+        "market capitalisation increased significantly",
+        "7.6% of total US vehicle market in 2023"
+      ],
+      "facts_count": 13,
+      "facts_sample": [
+        "Inflation Reduction Act --[ACCELERATED]--> U.S. electric vehicle and battery manufacturing markets",
+        "Inflation Reduction Act --[EXPECTED_TO_IMPACT]--> EV demand",
+        "Inflation Reduction Act --[EXPECTED_TO_IMPACT]--> EV margins"
+      ],
+      "tokens": 724,
+      "time": 3.483506441116333
+    }
+  },
+  {
+    "question": "Q2: What are the main benefits of electric vehicles over conventional vehicles?",
+    "flat_rag": {
+      "answer": "# Những lợi ích chính của xe điện so với xe thông thường\n\nTheo thông tin từ Alternative Fuels Data Center, xe điện (EVs) mang lại các lợi ích chính sau:\n\n1. **Cải thiện tiêu thụ nhiên liệu và giảm chi phí**: Xe điện giúp cải thiện hiệu suất nhiên liệu và hạ thấp chi phí nhiên liệu.\n\n2. **Giảm phát thải**: Xe điện có thể giảm đáng kể lượng phát thải khí nhà kính so với xe thông thường.\n\n3. **Cải thiện sức khỏe công cộng và môi trường**: Sử dụng điện như nguồn năng lượng cho giao thông cải thiện chất lượng không khí và môi trường.\n\n4. **Lợi ích an toàn**: Xe điện cung cấp các lợi ích về an toàn.\n\n5. **Hệ thống giao thông bền vững**: Góp phần xây dựng một hệ thống giao thông vững chắc hơn.",
+      "sources": [
+        "Electric Vehicle Benefits and ... - Alternative Fu",
+        "Electric Vehicle Benefits and ... - Alternative Fu",
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "Electric vehicles - IEA",
+        "U.S. Automobile Dealer Sentiment Index: As Market "
+      ],
+      "tokens": 1298,
+      "time": 4.01948618888855
+    },
+    "graph_rag": {
+      "answer": "# Lợi Ích Chính của Xe Điện So Với Xe Thông Thường\n\nBased on the Knowledge Graph provided, **thông tin trực tiếp về lợi ích của xe điện không được cung cấp đầy đủ**.\n\nTuy nhiên, có thể suy luận từ các facts:\n\n1. **Hỗ trợ chính sách**: States with ZEV (Zero Emission Vehicle) regulations cung cấp **ít nhất 13 mô hình xe điện nhiều hơn**, cho thấy xu hướng thúc đẩy các phương tiện không khí thải.\n\n2. **Tăng trưởng thị trường mạnh mẽ**: EV market tăng từ 65,000 xe (2017) lên 800,000+ xe (2022), phản ánh sự tin tưởng và chấp nhận ngày càng tăng từ người tiêu dùng.\n\n3. **Hỗ trợ cơ sở hạ tầng**: Joint Office hỗ trợ các dự án \"zero-emission fueling and transportation\", ngụ ý lợi ích môi trường.\n\n**Kết luận**: Graph chủ yếu tập trung vào thị trường và chính sách, chứ không chi tiết các lợi ích cụ thể (hiệu suất, chi phí, môi trường).",
+      "seed_nodes": [
+        "few thousand vehicles in 2010 to over 315,000 vehicles annually from 2018 to 2020",
+        "nearly 65,000 vehicles in 2017 to more than 800,000 vehicles in 2022",
+        "standards and frameworks for the electric vehicle charging industry",
+        "automotive, oil, electricity, infrastructure and battery materials",
+        "at least 13 more electric models than states without regulations"
+      ],
+      "facts_count": 10,
+      "facts_sample": [
+        "United States EV market --[GREW_FROM]--> few thousand vehicles in 2010 to over 315,000 vehicles annually from 2018 to 2020",
+        "US electric vehicle market --[GREW_FROM]--> nearly 65,000 vehicles in 2017 to more than 800,000 vehicles in 2022",
+        "Joint Office of Energy and Transportation --[ESTABLISHED]--> standards and frameworks for the electric vehicle charging industry"
+      ],
+      "tokens": 845,
+      "time": 5.3417205810546875
+    }
+  },
+  {
+    "question": "Q3: How many public EV charging stations are there in the United States?",
+    "flat_rag": {
+      "answer": "# Trả lời\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể về số lượng trạm sạc xe điện công cộng tại Hoa Kỳ**.\n\nCác nguồn tài liệu đề cập đến:\n- Tăng trưởng doanh số bán xe điện\n- Quan điểm của người tiêu dùng Mỹ về xe điện\n- Dữ liệu bán hàng theo quý\n\nTuy nhiên, chúng không chứa dữ liệu về số lượng trạm sạc công cộng. Để trả lời câu hỏi này, cần tham khảo các nguồn khác như báo cáo của Bộ Năng lượng Mỹ hoặc các tổ chức chuyên về cơ sở hạ tầng sạc xe điện.",
+      "sources": [
+        "Exploring consumer sentiment on electric-vehicle c",
+        "Americans' views of electric cars as gas alternati",
+        "U.S. electric vehicle sales soar into '24 - Intern",
+        "China's Electric Vehicle Industry's Internationali",
+        "China's Electric Vehicle Industry's Internationali"
+      ],
+      "tokens": 1185,
+      "time": 3.9951417446136475
+    },
+    "graph_rag": {
+      "answer": "# Trả lời\n\nDựa trên Knowledge Graph được cung cấp, **không có thông tin cụ thể về số lượng trạm sạc EV công cộng hiện có tại Hoa Kỳ**.\n\nGraph chỉ cung cấp các thông tin liên quan:\n- 42% người mua EV có nghi ngờ yêu cầu khả dụng trạm sạc công cộng tương đương với trạm xăng\n- Chính phủ liên bang hỗ trợ phát triển cơ sở hạ tầng sạc EV thông qua đầu tư công-tư\n- Joint Office of Energy and Transportation thiết lập các tiêu chuẩn ngành\n\n**Để trả lời chính xác câu hỏi này, cần dữ liệu bổ sung từ các nguồn như NREL, DOE, hoặc các cơ sở dữ liệu EV charging stations chuyên biệt.**",
+      "seed_nodes": [
+        "42 percent require public-charger availability equivalent to gas stations",
+        "standards and frameworks for the electric vehicle charging industry",
+        "private investment in zero-emission EV charging infrastructure",
+        "Ministry of Foreign Affairs of the People's Republic of China",
+        "United States, China, Mexico, Indonesia, European Union"
+      ],
+      "facts_count": 9,
+      "facts_sample": [
+        "Skeptical EV buyers --[PERCENTAGE_REQUIRING]--> 42 percent require public-charger availability equivalent to gas stations",
+        "Joint Office of Energy and Transportation --[ESTABLISHED]--> standards and frameworks for the electric vehicle charging industry",
+        "Joint Office of Energy and Transportation --[ACCELERATES]--> zero-emission fueling and transportation projects"
+      ],
+      "tokens": 670,
+      "time": 3.7320010662078857
+    }
+  },
+  {
+    "question": "Q4: What is the Inflation Reduction Act and how does it support EVs?",
+    "flat_rag": {
+      "answer": "# Trả lời: Inflation Reduction Act (IRA) và Hỗ trợ cho Xe Điện\n\nDựa vào ngữ cảnh cung cấp, **Inflation Reduction Act (IRA)** là một chính sách được Quốc hội Mỹ thông qua nhằm **tăng tốc độ phát triển của thị trường xe điện và sản xuất pin trong nước**.\n\n**Cách hỗ trợ:**\n- IRA đã kích thích các nhà sản xuất công bố **188 tỷ đô la** trong các khoản đầu tư vào sản xuất xe điện và pin xe điện tại Mỹ trong 9 năm gần đây\n- Dẫn đến tạo ra **195,000 việc làm trực tiếp** liên quan đến ngành xe điện\n\nTheo báo cáo của Environmental Defense Fund và WSP USA (sau 18 tháng áp dụng), ngành này tiếp tục **tăng trưởng mạnh mẽ**.",
+      "sources": [
+        "U.S. Electric Vehicle Investments Have Grown to $1",
+        "EU-US relations after the Inflation Reduction Act,",
+        "2024 Economic Trends Impacting the Auto Industry -",
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "Electric Vehicles: Slow, then Fast"
+      ],
+      "tokens": 1566,
+      "time": 4.283851623535156
+    },
+    "graph_rag": {
+      "answer": "# Inflation Reduction Act và Hỗ Trợ cho Ngành EV\n\n**Định nghĩa:**\nInflation Reduction Act là một chính sách của Chính phủ Mỹ nhằm giải quyết lạm phát.\n\n**Cách hỗ trợ ngành EV:**\n\nTheo Knowledge Graph, Inflation Reduction Act:\n\n1. **Cung cấp ưu đãi thuế** cho xe điện, giúp giảm chi phí mua hàng cho người tiêu dùng\n\n2. **Tăng tốc độ phát triển** thị trường sản xuất xe điện và pin ở Mỹ\n\n3. **Tác động tích cực đến nhu cầu EV** - dự kiến sẽ tăng cầu xe điện\n\n4. **Ảnh hưởng đến lợi nhuận** - dự kiến tác động tới biên lợi nhuận của các nhà sản xuất EV\n\n**Tóm lại:** Chính sách này là công cụ quan trọng để thúc đẩy chuyển đổi sang xe điện tại Mỹ thông qua khuyến khích tài chính và phát triển công nghiệp địa phương.",
+      "seed_nodes": [
+        "8.2% carbon footprint reduction",
+        "China's support of Russia",
+        "Inflation Reduction Act",
+        "Inflation"
+      ],
+      "facts_count": 10,
+      "facts_sample": [
+        "Extreme E Season 3 report --[RECORDED]--> 8.2% carbon footprint reduction",
+        "US --[CONCERNED_ABOUT]--> China's support of Russia",
+        "US --[PUBLISH]--> restrictions on outbound investment to China"
+      ],
+      "tokens": 718,
+      "time": 4.21862530708313
+    }
+  },
+  {
+    "question": "Q5: What was the EV sales share in the US in Q1 2024?",
+    "flat_rag": {
+      "answer": "# Trả lời:\n\nTheo dữ liệu từ Kelley Blue Book, **EV sales share trong Q1 2024 ở Mỹ là 7,3%**.\n\nCụ thể, trong quý đầu tiên của năm 2024, người Mỹ đã mua 268.909 chiếc xe điện mới. Tuy nhiên, con số này cho thấy sự suy giảm so với Q4 2023, khi doanh số bán hàng giảm 15,2%. Mặc dù doanh số EV vẫn tăng trưởng theo năm (tăng 2,6% so với Q1 2023), tốc độ tăng trưởng đã chậm lại đáng kể so với các năm trước.",
+      "sources": [
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "U.S. electric vehicle sales soar into '24 - Intern",
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "Why are EV sales slowing? | Goldman Sachs",
+        "US EV Market Passed the 1 Million Sales Mark in 20"
+      ],
+      "tokens": 1369,
+      "time": 2.860839366912842
+    },
+    "graph_rag": {
+      "answer": "# Trả lời Q5: EV Sales Share in US Q1 2024\n\nDựa trên **Knowledge Graph cung cấp**, tôi không tìm thấy dữ liệu cụ thể về **tỷ lệ bán hàng EV ở Mỹ trong Q1 2024**.\n\n## Thông tin liên quan có sẵn:\n- Alliance for Automotive Innovation **chỉ báo cáo dữ liệu đến Q3 2023** (không có Q1 2024)\n- Cox Automotive **dự đoán** doanh số EV sẽ vượt quá 1 triệu chiếc, nhưng không có con số cụ thể cho Q1 2024\n\n## Kết luận:\nKnowledge Graph hiện tại **không chứa thông tin về tỷ lệ bán hàng EV Q1 2024**. Cần dữ liệu từ các nguồn báo cáo gần đây hơn để trả lời câu hỏi này.",
+      "seed_nodes": [
+        "approximately two-thirds of 2020 U.S. electric vehicle sales",
+        "Annual sales of electrified passenger vehicles",
+        "U.S. light-duty EV sales from 2021 to Q3 2023",
+        "40 million electrified vehicle sales by 2030",
+        "EV sales in US would surpass 1 million mark"
+      ],
+      "facts_count": 9,
+      "facts_sample": [
+        "States with ZEV regulations --[RESPONSIBLE_FOR]--> approximately two-thirds of 2020 U.S. electric vehicle sales",
+        "States with ZEV regulations --[HAD_MARKET_SHARE]--> 5% of new electric vehicle sales",
+        "States with ZEV regulations --[OFFERS_MORE_MODELS]--> at least 13 more electric models than states without regulations"
+      ],
+      "tokens": 712,
+      "time": 3.3590481281280518
+    }
+  },
+  {
+    "question": "Q6: Which EV companies achieved more than 50% year-over-year sales growth in Q1 2024?",
+    "flat_rag": {
+      "answer": "# Trả lời:\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể** về những công ty EV nào đạt được mức tăng trưởng doanh số hơn 50% theo năm trong Q1 2024.\n\nCác nguồn tài liệu chỉ cung cấp dữ liệu tổng thể về thị trường:\n- Q1 2024: EV sales tăng **2,6% so với năm trước** (thấp hơn 50%)\n- Tăng trưởng doanh số theo năm ở mức chậm lại\n- Không nêu tên công ty cụ thể nào hay mức tăng trưởng riêng lẻ của từng hãng\n\nĐể trả lời câu hỏi này chính xác, cần có dữ liệu chi tiết theo từng công ty EV trong Q1 2024.",
+      "sources": [
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "Why are EV sales slowing? | Goldman Sachs",
+        "U.S. electric vehicle sales soar into '24 - Intern",
+        "US EV Market Passed the 1 Million Sales Mark in 20"
+      ],
+      "tokens": 1425,
+      "time": 3.391622304916382
+    },
+    "graph_rag": {
+      "answer": "# Phân tích Q6: EV Companies với >50% YoY Growth Q1 2024\n\n**Kết luận: Knowledge Graph không cung cấp đủ thông tin để trả lời câu hỏi này.**\n\n## Lý do:\n\nCác facts trong Knowledge Graph chủ yếu tập trung vào:\n- **Dữ liệu tổng thể ngành**: Tăng trưởng 50% năm 2022, dự báo đến 2030\n- **Quy định ZEV**: Tác động của các tiểu bang có quy định ZEV\n- **Xu hướng chung**: Doanh số EV toàn ngành\n- **Dữ liệu cũ**: Thông tin đến Q3 2023, chứ không phải Q1 2024\n\n## Thiếu hụt:\n\nGraph không chứa:\n- **Dữ liệu Q1 2024** cụ thể\n- **Tên công ty EV** và doanh số chi tiết của từng công ty\n- **Tỷ lệ tăng trưởng năm-trên-năm** theo từng nhà sản xuất\n\n**Cần thiết:** Dữ liệu báo cáo Q1 2024 từ các nhà sản xuất hoặc tổ chức tracking thị trường để trả lời chính xác.",
+      "seed_nodes": [
+        "approximately two-thirds of 2020 U.S. electric vehicle sales",
+        "Annual sales of electrified passenger vehicles",
+        "U.S. light-duty EV sales from 2021 to Q3 2023",
+        "40 million electrified vehicle sales by 2030",
+        "EV sales in US would surpass 1 million mark"
+      ],
+      "facts_count": 9,
+      "facts_sample": [
+        "States with ZEV regulations --[RESPONSIBLE_FOR]--> approximately two-thirds of 2020 U.S. electric vehicle sales",
+        "States with ZEV regulations --[HAD_MARKET_SHARE]--> 5% of new electric vehicle sales",
+        "States with ZEV regulations --[OFFERS_MORE_MODELS]--> at least 13 more electric models than states without regulations"
+      ],
+      "tokens": 812,
+      "time": 4.8075480461120605
+    }
+  },
+  {
+    "question": "Q7: What is Nikola Corporation's business strategy and core products?",
+    "flat_rag": {
+      "answer": "# Câu trả lời:\n\nDựa vào tài liệu báo cáo tài chính Q1 2023 của Nikola Corporation, chiến lược kinh doanh và sản phẩm cốt lõi của công ty bao gồm:\n\n**Sản phẩm chính:**\n1. **Xe tải điện (Battery Electric Trucks)** - Dùng cho vận tải metro-khu vực\n2. **Xe tải hydro nhiên liệu (Hydrogen Fuel Cell Trucks)** - Dùng cho vận tải metro-khu vực\n\n**Chiến lược:**\nNikola tập trung vào lĩnh vực **vận tải không khí thải (zero-emissions transportation solutions)**. Công ty đang xây dựng động lực bán hàng thông qua việc giao xe tải điện Class 8 cho khách hàng và nhận đơn đặt hàng cho 140 xe tải hydro nhiên liệu. CEO Michael Lohscheller nhấn mạnh rằng công ty có \"sản phẩm phù hợp vào đúng thời điểm.\"",
+      "sources": [
+        "Nikola Corporation Reports First Quarter 2023 Resu",
+        "Three big reasons Americans haven't rapidly adopte",
+        "The EV Transition Makes the U.S. Economy More Resi",
+        "Full Year Results and Annual Report 2023 | Mercede",
+        "When does reinventing the wheel make perfect sense"
+      ],
+      "tokens": 1371,
+      "time": 3.794434070587158
+    },
+    "graph_rag": {
+      "answer": "# Trả lời Q7: Nikola Corporation's Business Strategy and Core Products\n\n**Tình trạng thông tin:** Không có dữ liệu về Nikola Corporation trong Knowledge Graph được cung cấp.\n\nCác facts trong graph chỉ liên quan đến:\n- **EY**: dịch vụ tư vấn chiến lược, chuyển đổi kinh doanh, AI adoption\n- **Deloitte**: khảo sát về chiến lược năng lượng và lo ngại về carbon footprint\n- **Bloomberg**: cung cấp thông tin tài chính\n\n**Kết luận:** Để trả lời chính xác về chiến lược kinh doanh và sản phẩm cốt lõi của Nikola Corporation, cần thêm dữ liệu về công ty này trong Knowledge Graph. Hiện tại, không thể cung cấp câu trả lời dựa vào các facts có sẵn.",
+      "seed_nodes": [
+        "acceleration of client AI Business Model adoption with NVIDIA AI",
+        "86 percent believe government should set energy strategy",
+        "Strategy, transaction and transformation consulting",
+        "EY Nexus business transformation platform",
+        "business and financial information"
+      ],
+      "facts_count": 8,
+      "facts_sample": [
+        "EY --[ANNOUNCED]--> acceleration of client AI Business Model adoption with NVIDIA AI",
+        "EY --[PROVIDES]--> assurance and transformation services",
+        "EY --[OPERATES]--> EY.ai platform"
+      ],
+      "tokens": 592,
+      "time": 3.860478639602661
+    }
+  },
+  {
+    "question": "Q8: How do ZEV regulations in California affect EV manufacturers?",
+    "flat_rag": {
+      "answer": "# Trả lời câu hỏi Q8:\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể về cách các quy định ZEV (Zero Emission Vehicle) của California ảnh hưởng đến các nhà sản xuất xe điện**.\n\nMặc dù đoạn văn bản đầu tiên đề cập đến \"các hành động của tiểu bang, địa phương và công ty tiện ích để thúc đẩy xe điện\" và nhấn mạnh rằng \"các tiểu bang và thành phố có thành công thị trường xe điện lớn nhất tiếp tục có những hành động mạnh mẽ nhất\", nhưng nó không cụ thể giải thích về quy định ZEV của California hay tác động của chúng.\n\n**Kết luận**: Để trả lời đầy đủ câu hỏi này, cần có các tài liệu bổ sung chứa thông tin chi tiết về quy định ZEV của California.",
+      "sources": [
+        "Evaluating electric vehicle market growth across U",
+        "How Innovative Is China in the Electric Vehicle an",
+        "How Innovative Is China in the Electric Vehicle an",
+        "How Chinese Companies are Dominating Electric Vehi",
+        "Nikola Corporation Reports First Quarter 2023 Resu"
+      ],
+      "tokens": 1326,
+      "time": 3.570359468460083
+    },
+    "graph_rag": {
+      "answer": "# Ảnh hưởng của ZEV Regulations California đến Nhà sản xuất EV\n\nDựa trên Knowledge Graph, ZEV regulations tại California tác động đáng kể đến nhà sản xuất EV:\n\n**Mở rộng danh mục sản phẩm:**\nCác tiểu bang có ZEV regulations cung cấp ít nhất 13 mẫu xe điện bổ sung so với các tiểu bang không có quy định này.\n\n**Thị trường lớn:**\n- ZEV regulations states chiếm khoảng 2/3 doanh số bán EV của Mỹ năm 2020\n- Thị phần EV ở các tiểu bang này đạt 5%, cao gấp 4 lần so với tiểu bang không có quy định (1.3%)\n\n**Đầu tư khổng lồ:**\nCác nhà sản xuất đã công bố đầu tư $188 tỷ vào sản xuất EV và pin.\n\n**Kết luận:** ZEV regulations buộc nhà sản xuất phải đa dạng hóa sản phẩm và tăng cường đầu tư, nhưng cũng tạo ra thị trường tiềm năng rất lớn.",
+      "seed_nodes": [
+        "at least 13 more electric models than states without regulations",
+        "States without ZEV regulations",
+        "California Management Review",
+        "States with ZEV regulations",
+        "Manufacturers"
+      ],
+      "facts_count": 6,
+      "facts_sample": [
+        "States with ZEV regulations --[OFFERS_MORE_MODELS]--> at least 13 more electric models than states without regulations",
+        "States with ZEV regulations --[HAD_MARKET_SHARE]--> 5% of new electric vehicle sales",
+        "States with ZEV regulations --[RESPONSIBLE_FOR]--> approximately two-thirds of 2020 U.S. electric vehicle sales"
+      ],
+      "tokens": 695,
+      "time": 4.139820575714111
+    }
+  },
+  {
+    "question": "Q9: What is the relationship between charging infrastructure and EV adoption rates?",
+    "flat_rag": {
+      "answer": "# Mối Quan Hệ Giữa Cơ Sở Hạ Tầng Sạc và Tỷ Lệ Áp Dụng EV\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể** về mối quan hệ giữa cơ sở hạ tầng sạc và tỷ lệ áp dụng xe điện.\n\nCác tài liệu chỉ đề cập đến:\n- Sự tăng trưởng doanh số bán EV toàn cầu (vượt 10 triệu chiếc năm 2022)\n- Dự báo đạt 40 triệu chiếc vào 2030\n- Quan điểm của người tiêu dùng về EV\n- Tăng trưởng khối lượng EV dự kiến\n\nĐể trả lời đầy đủ về mối quan hệ này, cần thêm thông tin từ các nguồn khác tập trung vào cơ sở hạ tầng sạc điện.",
+      "sources": [
+        "Exploring consumer sentiment on electric-vehicle c",
+        "Americans' views of electric cars as gas alternati",
+        "Electric Vehicles: Slow, then Fast",
+        "Electric Vehicles: Slow, then Fast",
+        "2024 Economic Trends Impacting the Auto Industry -"
+      ],
+      "tokens": 1298,
+      "time": 3.4767708778381348
+    },
+    "graph_rag": {
+      "answer": "# Mối Quan Hệ Giữa Cơ Sở Hạ Tầng Sạc và Tỷ Lệ Áp Dụng EV\n\nDựa vào Knowledge Graph, mối quan hệ này được thể hiện qua:\n\n**1. Hỗ Trợ Chính Sách:**\n- Chính phủ liên bang hỗ trợ cơ sở hạ tầng sạc EV bằng các khoản tín dụng thuế $7,500 cho mua hàng EV\n- Joint Office of Energy and Transportation thiết lập các tiêu chuẩn và khung pháp lý cho ngành sạc\n\n**2. Tác Động Trực Tiếp:**\n- Người tiêu dùng Mỹ chỉ có 17% tự tin vào cơ sở hạ tầng EV hiện tại\n- Dù có hỗ trợ, Mỹ vẫn bán 317,168 EV trong Q4 2023\n\n**Kết luận:** Cơ sở hạ tầng sạc là yếu tố **quan trọng nhưng chưa đủ** để thúc đẩy áp dụng EV. Cần kết hợp với chính sách tài chính và sự hợp tác công-tư để tăng tín tưởng người tiêu dùng.",
+      "seed_nodes": [
+        "standards and frameworks for the electric vehicle charging industry",
+        "automotive, oil, electricity, infrastructure and battery materials",
+        "acceleration of client AI Business Model adoption with NVIDIA AI",
+        "private investment in zero-emission EV charging infrastructure",
+        "17% extremely or very confident in EV infrastructure"
+      ],
+      "facts_count": 15,
+      "facts_sample": [
+        "Joint Office of Energy and Transportation --[ESTABLISHED]--> standards and frameworks for the electric vehicle charging industry",
+        "Joint Office of Energy and Transportation --[ACCELERATES]--> zero-emission fueling and transportation projects",
+        "Joint Office of Energy and Transportation --[SUPPORTS]--> electrical distribution and transmission innovation"
+      ],
+      "tokens": 886,
+      "time": 4.241264343261719
+    }
+  },
+  {
+    "question": "Q10: How does the average EV transaction price compare to conventional vehicles?",
+    "flat_rag": {
+      "answer": "# Trả lời\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể so sánh giá giao dịch trung bình giữa xe điện (EV) và xe truyền thống**.\n\nCác nguồn tài liệu chỉ đề cập đến:\n- Thị phần bán hàng của EV (7.6% năm 2023)\n- Lợi ích của EV như tiết kiệm nhiên liệu, giảm chi phí và khí thải\n- Tốc độ tăng trưởng doanh số bán hàng EV\n\nĐể trả lời câu hỏi này, cần tìm kiếm các nguồn tài liệu khác chứa dữ liệu về so sánh giá giao dịch giữa hai loại xe.",
+      "sources": [
+        "US EV Market Passed the 1 Million Sales Mark in 20",
+        "Electric Vehicle Benefits and ... - Alternative Fu",
+        "Electric Vehicle Benefits and ... - Alternative Fu",
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "Three big reasons Americans haven't rapidly adopte"
+      ],
+      "tokens": 1210,
+      "time": 3.2975380420684814
+    },
+    "graph_rag": {
+      "answer": "# Phân Tích: Giá Giao Dịch EV vs Xe Thông Thường\n\n## Dữ liệu từ Knowledge Graph\n\nDựa trên các facts có sẵn, **Knowledge Graph không cung cấp thông tin trực tiếp về so sánh giá giao dịch trung bình giữa xe điện (EV) và xe thông thường.**\n\n## Thông tin liên quan có thể tìm thấy:\n\n- **Chi phí năng lượng**: EVs có **chi phí năng lượng thấp hơn** xe xăng\n- **Hiệu suất năng lượng**: EVs sử dụng 87%-91% hiệu suất năng lượng\n- **Tác động giá**: Xâm lược Nga-Ukraine đã gây **biến động giá kim loại pin**\n\n## Kết luận\n\nĐể trả lời đầy đủ câu hỏi về **giá giao dịch**, cần thêm dữ liệu về:\n- Giá bán ban đầu của EV\n- Giá xe thông thường\n- Xu hướng giá theo thời gian\n\nHiện tại chỉ có thể khẳng định EVs tiết kiệm chi phí vận hành hơn.",
+      "seed_nodes": [
+        "additional energy compared to gasoline car production",
+        "Strategy, transaction and transformation consulting",
+        "energy costs than conventional vehicles",
+        "1.3% average electric vehicle share",
+        "battery metal price fluctuations"
+      ],
+      "facts_count": 12,
+      "facts_sample": [
+        "EV battery manufacturing --[REQUIRES]--> additional energy compared to gasoline car production",
+        "EY --[OFFERS]--> Strategy, transaction and transformation consulting",
+        "EY --[PROVIDES]--> assurance and transformation services"
+      ],
+      "tokens": 747,
+      "time": 4.112940073013306
+    }
+  },
+  {
+    "question": "Q11: What is the connection between Nikola, Iveco, and the European manufacturing market?",
+    "flat_rag": {
+      "answer": "# Trả lời\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể về mối liên hệ giữa Nikola, Iveco, và thị trường sản xuất châu Âu**.\n\nCác tài liệu chỉ đề cập đến:\n- Nikola Corporation báo cáo kết quả Q1 2023 với việc giao xe tải chạy pin điện Class 8 và đơn đặt hàng xe tải pin nhiên liệu hydro\n- Nikola CEO Michael Lohscheller nhấn mạnh về các sản phẩm và động lực bán hàng\n\nTuy nhiên, không có bất kỳ đề cập nào về Iveco hay các hoạt động sản xuất ở châu Âu trong các đoạn văn bản này. Để trả lời câu hỏi này chính xác, cần có thêm tài liệu liên quan.",
+      "sources": [
+        "Nikola Corporation Reports First Quarter 2023 Resu",
+        "U.S. Electric Vehicle Investments Have Grown to $1",
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "International equities: Focusing on structural rat",
+        "U.S. Automobile Dealer Sentiment Index: As Market "
+      ],
+      "tokens": 1337,
+      "time": 3.2404236793518066
+    },
+    "graph_rag": {
+      "answer": "# Trả lời về Nikola, Iveco và Thị trường Sản xuất Châu Âu\n\nDựa trên Knowledge Graph được cung cấp, **không có thông tin trực tiếp** về mối liên kết giữa Nikola, Iveco, và thị trường sản xuất châu Âu.\n\nTuy nhiên, graph cho thấy:\n- Châu Âu là một thị trường **EV và pin năng lượng quan trọng** với mức tăng năng lực pin 81% (2015-2020)\n- Các nhà sản xuất đã công bố **khoản đầu tư 188 tỷ USD** vào sản xuất EV và pin\n- Environmental Defense Fund hoạt động ở Liên minh Châu Âu\n\nĐể trả lời đầy đủ về cách Nikola và Iveco tham gia vào thị trường châu Âu cần thêm dữ liệu về các hợp tác hoặc đầu tư cụ thể của hai công ty này.",
+      "seed_nodes": [
+        "U.S. Electric Vehicle Manufacturing Investments and Jobs",
+        "United States, China, Mexico, Indonesia, European Union",
+        "U.S. electric vehicle and battery manufacturing markets",
+        "$188 billion in EV and battery manufacturing",
+        "81% in China and Europe between 2015-2020"
+      ],
+      "facts_count": 8,
+      "facts_sample": [
+        "Environmental Defense Fund and WSP USA --[PUBLISHED_REPORT]--> U.S. Electric Vehicle Manufacturing Investments and Jobs",
+        "Environmental Defense Fund --[OPERATES_OFFICES_IN]--> United States, China, Mexico, Indonesia, European Union",
+        "Inflation Reduction Act --[ACCELERATED]--> U.S. electric vehicle and battery manufacturing markets"
+      ],
+      "tokens": 685,
+      "time": 3.6627705097198486
+    }
+  },
+  {
+    "question": "Q12: How do battery technology improvements affect EV prices and adoption rates?",
+    "flat_rag": {
+      "answer": "# Trả lời Q12: Tác động của cải tiến công nghệ pin đến giá EV và tỷ lệ áp dụng\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể** về mối quan hệ giữa cải tiến công nghệ pin và giá cả hay tỷ lệ áp dụng EV.\n\nCác tài liệu chỉ đề cập:\n- Sự tăng trưởng mạnh mẽ của EV tại Mỹ (1,2 triệu chiếc năm 2023)\n- Trung Quốc dẫn đầu về **đổi mới công nghệ pin EV**\n- Chip shortage và các thách thức ngành công nghiệp ô tô\n\n**Kết luận:** Để trả lời đầy đủ câu hỏi này, cần các tài liệu bổ sung chứa dữ liệu cụ thể về mối tương quan giữa tiến bộ công nghệ pin, chi phí sản xuất và quyết định mua hàng của người tiêu dùng.",
+      "sources": [
+        "US EV Market Passed the 1 Million Sales Mark in 20",
+        "How Innovative Is China in the Electric Vehicle an",
+        "How Innovative Is China in the Electric Vehicle an",
+        "2024 Economic Trends Impacting the Auto Industry -",
+        "China's Electric Vehicle Industry's Internationali"
+      ],
+      "tokens": 1295,
+      "time": 3.9696757793426514
+    },
+    "graph_rag": {
+      "answer": "# Tác động của cải tiến công nghệ pin đến giá EV và tỷ lệ áp dụng\n\nDựa vào Knowledge Graph, tôi có thể cung cấp thông tin hạn chế về câu hỏi này:\n\n**Những thông tin có sẵn:**\n- **Chính sách hỗ trợ**: Inflation Reduction Act đã tăng tốc thị trường sản xuất EV và pin ở Mỹ, dự kiến tác động đến cầu EV và biên lợi nhuận.\n- **Tiến độ áp dụng**: Pin và xe điện đã đạt mốc 2 triệu xe vào năm 2019.\n\n**Hạn chế:**\nGraph không cung cấp dữ liệu trực tiếp về:\n- Mối quan hệ giữa cải tiến công nghệ pin → giảm giá\n- Tác động của chi phí pin đến giá EV\n- Tương quan giữa hiệu suất pin và tỷ lệ chấp nhận tiêu dùng\n\n**Kết luận:** Cần dữ liệu bổ sung về chi phí pin ($/kWh), hiệu suất năng lượng và phân tích giá cả để trả lời toàn diện.",
+      "seed_nodes": [
+        "automotive, oil, electricity, infrastructure and battery materials",
+        "acceleration of client AI Business Model adoption with NVIDIA AI",
+        "Battery electric vehicles and plug-in hybrid electric vehicles",
+        "U.S. electric vehicle and battery manufacturing markets",
+        "Battery electric and plug-in hybrid electric cars"
+      ],
+      "facts_count": 12,
+      "facts_sample": [
+        "Electric Vehicle Outlook --[COVERS_MARKETS]--> automotive, oil, electricity, infrastructure and battery materials",
+        "Electric Vehicle Outlook --[ANALYZES]--> electrification and shared mobility",
+        "EY --[ANNOUNCED]--> acceleration of client AI Business Model adoption with NVIDIA AI"
+      ],
+      "tokens": 822,
+      "time": 5.596879005432129
+    }
+  },
+  {
+    "question": "Q13: What states have the strongest EV policies and what is their market share impact?",
+    "flat_rag": {
+      "answer": "# Trả lời Q13: States/Countries với chính sách EV mạnh nhất\n\nDựa vào các đoạn văn bản cung cấp, **không có thông tin cụ thể về các tiểu bang (states) nào có chính sách EV mạnh nhất hoặc tác động thị phần của chúng**.\n\nTuy nhiên, các tài liệu chỉ ra:\n\n- **Trung Quốc** là nhà lãnh đạo toàn cầu trong ngành EV, sản xuất gần 2/3 EV toàn thế giới và hơn 3/4 pin EV\n- **Hoa Kỳ** ghi nhận tiến bộ đáng kể: thị phần EV tăng từ 5,9% (2022) lên 7,6% (2023), với gần 1,2 triệu xe được bán năm 2023\n\nĐể trả lời câu hỏi về chính sách của các tiểu bang cụ thể (như California, Texas), cần các tài liệu bổ sung không có trong ngữ cảnh hiện tại.",
+      "sources": [
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "How Innovative Is China in the Electric Vehicle an",
+        "How Innovative Is China in the Electric Vehicle an",
+        "US EV Market Passed the 1 Million Sales Mark in 20",
+        "China's Electric Vehicle Industry's Internationali"
+      ],
+      "tokens": 1341,
+      "time": 4.486969947814941
+    },
+    "graph_rag": {
+      "answer": "## Các tiểu bang có chính sách EV mạnh nhất:\n\n**Các tiểu bang với Quy định ZEV (Zero Emission Vehicle)** là những nơi có chính sách EV mạnh nhất.\n\n### Tác động thị phần:\n\n1. **Cung cấp nhiều mô hình xe**: Cung cấp ít nhất **13 mô hình điện nhiều hơn** so với các tiểu bang không có quy định\n\n2. **Thị phần bán hàng**:\n   - Chiếm **5% doanh số xe điện mới**\n   - Chịu trách nhiệm cho **khoảng 2/3 doanh số EV toàn nước Mỹ năm 2020**\n\n### Kết luận:\nCác tiểu bang với quy định ZEV có ảnh hưởng thị phần rất lớn - chỉ chiếm 5% bán hàng nhưng tạo ra 2/3 tổng doanh số EV quốc gia, chứng tỏ hiệu quả cao của chính sách này trong thúc đẩy thị trường xe điện.",
+      "seed_nodes": [
+        "at least 13 more electric models than states without regulations",
+        "United States, China, Mexico, Indonesia, European Union",
+        "U.S. electric vehicle and battery manufacturing markets",
+        "world's largest EV market for eighth consecutive year",
+        "2025 Investment Directions: Navigating Market Trends"
+      ],
+      "facts_count": 12,
+      "facts_sample": [
+        "States with ZEV regulations --[OFFERS_MORE_MODELS]--> at least 13 more electric models than states without regulations",
+        "States with ZEV regulations --[HAD_MARKET_SHARE]--> 5% of new electric vehicle sales",
+        "States with ZEV regulations --[RESPONSIBLE_FOR]--> approximately two-thirds of 2020 U.S. electric vehicle sales"
+      ],
+      "tokens": 806,
+      "time": 4.10906457901001
+    }
+  },
+  {
+    "question": "Q14: How does BloombergNEF forecast EV adoption will affect oil demand by 2050?",
+    "flat_rag": {
+      "answer": "# Trả lời Q14\n\nDựa trên các đoạn văn bản được cung cấp, **không có thông tin cụ thể từ BloombergNEF về dự báo ảnh hưởng của việc áp dụng xe điện đến nhu cầu dầu mỏ vào năm 2050**.\n\nMặc dù có tham chiếu đến \"EVO Report 2024 | BloombergNEF\", nhưng đoạn văn này chỉ chứa thông tin liên hệ và không bao gồm nội dung báo cáo thực tế.\n\nCác đoạn văn khác đề cập đến lợi ích của xe điện trong việc giảm sử dụng dầu mỏ và bảo vệ kinh tế khỏi các cú sốc giá dầu, nhưng không cung cấp dự báo cụ thể từ BloombergNEF cho năm 2050.",
+      "sources": [
+        "The EV Transition Makes the U.S. Economy More Resi",
+        "Energy Sector Stocks: Is Now the Time to Invest? |",
+        "EVO Report 2024 | BloombergNEF | Bloomberg Finance",
+        "Electric Vehicles: Slow, then Fast",
+        "Electric Vehicles: Slow, then Fast"
+      ],
+      "tokens": 1304,
+      "time": 3.4172561168670654
+    },
+    "graph_rag": {
+      "answer": "# Trả lời câu hỏi Q14\n\n**Không có thông tin trong Knowledge Graph để trả lời câu hỏi này.**\n\nCác facts hiện có trong graph chỉ liên quan đến:\n- Dự báo tỷ lệ áp dụng EV vào năm 2030 (Europe: 40%, Global: 33%)\n- Tác động của cơ sở hạ tầng sạc điện đến sự áp dụng EV\n\n**Thông tin còn thiếu:**\n- Dự báo của BloombergNEF về tác động đến nhu cầu dầu mỏ\n- Các mô hình dự báo cụ thể đến năm 2050\n- Mối liên hệ giữa áp dụng EV và giảm nhu cầu dầu mỏ\n\nĐể trả lời chi tiết, cần thêm dữ liệu từ các báo cáo của BloombergNEF về dự báo năng lượng và thị trường dầu mỏ.",
+      "seed_nodes": [
+        "acceleration of client AI Business Model adoption with NVIDIA AI",
+        "surge in electric vehicle adoption",
+        "widespread adoption of EVs",
+        "Europe EV adoption",
+        "Global EV adoption"
+      ],
+      "facts_count": 9,
+      "facts_sample": [
+        "EY --[ANNOUNCED]--> acceleration of client AI Business Model adoption with NVIDIA AI",
+        "EY --[PROVIDES]--> assurance and transformation services",
+        "EY --[OPERATES]--> EY.ai platform"
+      ],
+      "tokens": 655,
+      "time": 3.3826396465301514
+    }
+  },
+  {
+    "question": "Q15: What factors explain why Tesla's sales declined while other brands grew in Q1 2024?",
+    "flat_rag": {
+      "answer": "# Trả lời Q15\n\nDựa vào các đoạn văn bản cung cấp, **không có thông tin cụ thể giải thích lý do tại sao doanh số của Tesla giảm trong khi các thương hiệu khác tăng trưởng trong Q1 2024**.\n\nCác tài liệu chỉ cho biết:\n- Tổng doanh số xe điện tại Mỹ Q1 2024 tăng 2,6% so với năm trước nhưng giảm 15,2% so với Q4 2023\n- Tesla được nhắc đến như nhà lãnh đạo thị trường trong quá khứ\n- Các hãng sản xuất ô tô lớn và startup khác đang tăng cường chương trình EV\n\nTuy nhiên, các tài liệu **không cung cấp dữ liệu bán hàng cụ thể của Tesla hoặc phân tích chi tiết về các yếu tố gây ra sự sụt giảm doanh số của hãng này**.",
+      "sources": [
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "Electric Vehicle Sales Review Q2-2024 | PwC and St",
+        "U.S. electric vehicle sales soar into '24 - Intern",
+        "What Are Tesla's (TSLA) Main Competitors?",
+        "ZEEKR Reports First Quarter 2024 Unaudited Financi"
+      ],
+      "tokens": 1494,
+      "time": 5.921221017837524
+    },
+    "graph_rag": {
+      "answer": "# Trả lời Q15: Yếu tố giải thích sự suy giảm doanh số Tesla trong Q1 2024\n\n**Kết luận:** Knowledge Graph được cung cấp **không chứa thông tin cụ thể** về:\n- Doanh số Tesla trong Q1 2024\n- Hiệu suất của các thương hiệu khác trong kỳ này\n- Các yếu tố giải thích sự thay đổi thị phần\n\n**Dữ liệu có sẵn trong Graph:**\nGraph chỉ chứa dữ liệu lịch sử (đến Q3 2023) và dự báo chung về thị trường EV toàn cầu, cùng tác động của quy định ZEV đối với cấu trúc thị trường.\n\n**Để trả lời câu hỏi này, cần thêm:**\n- Báo cáo doanh số Tesla Q1 2024\n- Dữ liệu so sánh các thương hiệu khác cùng kỳ\n- Phân tích về chiến lược giá cả, cạnh tranh, hoặc yếu tố thị trường cụ thể",
+      "seed_nodes": [
+        "approximately two-thirds of 2020 U.S. electric vehicle sales",
+        "Annual sales of electrified passenger vehicles",
+        "U.S. light-duty EV sales from 2021 to Q3 2023",
+        "40 million electrified vehicle sales by 2030",
+        "EV sales in US would surpass 1 million mark"
+      ],
+      "facts_count": 9,
+      "facts_sample": [
+        "States with ZEV regulations --[RESPONSIBLE_FOR]--> approximately two-thirds of 2020 U.S. electric vehicle sales",
+        "States with ZEV regulations --[HAD_MARKET_SHARE]--> 5% of new electric vehicle sales",
+        "States with ZEV regulations --[OFFERS_MORE_MODELS]--> at least 13 more electric models than states without regulations"
+      ],
+      "tokens": 764,
+      "time": 7.699482202529907
+    }
+  },
+  {
+    "question": "Q16: Compare the EV market strategies of luxury brands versus mass-market brands.",
+    "flat_rag": {
+      "answer": "# So sánh Chiến lược Thị trường EV: Thương hiệu Cao cấp vs Thương hiệu Khối lượng\n\nDựa vào các đoạn văn bản cung cấp, **không có thông tin cụ thể nào** so sánh chiến lược thị trường giữa các thương hiệu xe cao cấp (như Tesla, BMW) và các thương hiệu khối lượng (như Volkswagen, General Motors).\n\nCác tài liệu chỉ đề cập:\n- Tesla là lãnh đạo thị trường EV hiện nay\n- Các nhà sản xuất lập thập và startups đang tham gia cuộc đua EV\n- Trung Quốc trở thành lãnh đạo thế giới trong sản xuất và tiêu thụ EV\n\n**Kết luận**: Để trả lời câu hỏi này một cách chính xác, cần tài liệu bổ sung cụ thể so sánh chiến lược định giá, công nghệ, và định vị thương hiệu của hai phân khúc này.",
+      "sources": [
+        "How did China come to dominate the world of electr",
+        "China: Looking beyond the headlines | BNY Investme",
+        "What Are Tesla's (TSLA) Main Competitors?",
+        "EV Sales Growth Slows; Market Leader Tesla Stalls ",
+        "US EV Market Passed the 1 Million Sales Mark in 20"
+      ],
+      "tokens": 1382,
+      "time": 4.356733560562134
+    },
+    "graph_rag": {
+      "answer": "# So sánh Chiến lược Thị trường EV: Thương hiệu Cao cấp vs Khối Lượng\n\nDựa trên Knowledge Graph được cung cấp, **thông tin không đủ để so sánh trực tiếp chiến lược của hai phân khúc này**.\n\nTuy nhiên, graph cung cấp bối cảnh thị trường quan trọng:\n\n**Yếu tố ảnh hưởng chung:**\n- **Chính sách hỗ trợ**: Inflation Reduction Act tăng tốc sản xuất EV và pin ở Mỹ, ảnh hưởng đến cơ cấu biên lợi nhuận\n- **Thị trường toàn cầu**: Trung Quốc giữ vị trí thị trường EV lớn nhất 8 năm liên tiếp, làm trung tâm sản xuất\n- **Chi phí sản xuất**: Pin EV yêu cầu năng lượng bổ sung, tác động đến định giá chiến lược của cả hai phân khúc\n\n**Kết luận**: Để phân tích chi tiết các khác biệt về giá cả, định vị, R&D giữa hai phân khúc, cần thêm dữ liệu cụ thể từ các thương hiệu.",
+      "seed_nodes": [
+        "U.S. electric vehicle and battery manufacturing markets",
+        "world's largest EV market for eighth consecutive year",
+        "additional energy compared to gasoline car production",
+        "2025 Investment Directions: Navigating Market Trends",
+        "market capitalisation increased significantly"
+      ],
+      "facts_count": 10,
+      "facts_sample": [
+        "Inflation Reduction Act --[ACCELERATED]--> U.S. electric vehicle and battery manufacturing markets",
+        "Inflation Reduction Act --[EXPECTED_TO_IMPACT]--> EV demand",
+        "Inflation Reduction Act --[EXPECTED_TO_IMPACT]--> EV margins"
+      ],
+      "tokens": 779,
+      "time": 4.853123188018799
+    }
+  },
+  {
+    "question": "Q17: What is the HYLA hydrogen ecosystem and how does it fit into zero-emission trucking?",
+    "flat_rag": {
+      "answer": "# Trả lời câu hỏi Q17\n\nDựa vào các đoạn văn bản được cung cấp, **thông tin về hệ sinh thái hydrogen HYLA không có trong ngữ cảnh này**.\n\nCác tài liệu chỉ đề cập đến:\n- **Nikola Corporation** phát triển xe tải hydrogen fuel cell (Class 8) cho vận chuyển khu vực\n- Xe tải này là giải pháp **vận chuyển không khí thải** cạnh tranh với pin điện\n- Nikola có đơn đặt hàng 140 xe tải hydrogen fuel cell từ khách hàng\n\nĐể trả lời chi tiết về HYLA hydrogen ecosystem và cách nó phù hợp với xe tải không khí thải, cần các tài liệu bổ sung cụ thể về hệ thống này từ Nikola Corporation hoặc các nguồn liên quan.",
+      "sources": [
+        "Nikola Corporation Reports First Quarter 2023 Resu",
+        "Zero-Emission Electric Vehicle Charging and Refuel",
+        "Zero-Emission Electric Vehicle Charging and Refuel",
+        "REE Automotive Announces Fourth Quarter 2021 Finan",
+        "Evaluating electric vehicle market growth across U"
+      ],
+      "tokens": 1229,
+      "time": 3.483431577682495
+    },
+    "graph_rag": {
+      "answer": "# HYLA Hydrogen Ecosystem và Zero-Emission Trucking\n\nDựa trên Knowledge Graph, **HYLA là một hệ sinh thái hydrogen refueling** được phát triển bởi **Nikola Corporation** để hỗ trợ lĩnh vực vận tải không phát thải.\n\n## Vai trò trong Zero-Emission Trucking:\n- HYLA cung cấp cơ sở hạ tầng nạp nhiên liệu hydrogen cho **hydrogen fuel cell trucks** của Nikola\n- Nikola sản xuất cả xe tải Class 8 chạy pin điện và xe chạy hydrogen fuel cell\n- Nikola đã nhận được **140 đơn hàng** cho hydrogen fuel cell trucks, cho thấy nhu cầu thị trường\n\n## Bối cảnh Chính sách:\n- California yêu cầu **xe tải drayage zero-emission vào 2035**, tạo động lực cho giải pháp hydrogen như HYLA\n- Chính phủ liên bang hỗ trợ các dự án **zero-emission fueling và transportation**\n\n**Lưu ý:** Graph không cung cấp chi tiết cụ thể về cấu trúc hay quy mô của HYLA.",
+      "seed_nodes": [
+        "private investment in zero-emission EV charging infrastructure",
+        "zero-emission fueling and transportation projects",
+        "zero-emission drayage trucks by 2035",
+        "HYLA hydrogen refueling business",
+        "140 hydrogen fuel cell trucks"
+      ],
+      "facts_count": 14,
+      "facts_sample": [
+        "Federal government --[COMPLEMENTS]--> private investment in zero-emission EV charging infrastructure",
+        "Federal government --[OFFERS_TAX_CREDIT]--> US$7,500 on electric vehicle purchases",
+        "Federal government --[COLLABORATES_WITH]--> private sector"
+      ],
+      "tokens": 820,
+      "time": 4.916964054107666
+    }
+  },
+  {
+    "question": "Q18: How do life cycle emissions of EVs vary depending on the electricity source?",
+    "flat_rag": {
+      "answer": "# Trả lời câu hỏi Q18\n\nDựa vào các đoạn văn bản được cung cấp, **thông tin cụ thể về cách phát thải vòng đời của xe điện thay đổi tùy theo nguồn điện là rất hạn chế**.\n\nCác tài liệu chỉ đề cập rằng:\n\n- Xe điện và xe hybrid có thể mang lại **lợi ích giảm phát thải đáng kể** so với các loại xe khác\n- Cần **xem xét phát thải vòng đời** khi chuyển sang giao thông sạch\n- Xe điện **không có phát thải khí thải trực tiếp**, nhưng **phát thải phụ thuộc vào cách điện được tạo ra**\n\nTuy nhiên, các đoạn văn bản **không cung cấp chi tiết cụ thể** về cách phát thải vòng đời thay đổi giữa các nguồn điện khác nhau (năng lượng tái tạo, nhiệt điện, v.v.).",
+      "sources": [
+        "Electric Vehicle Benefits and ... - Alternative Fu",
+        "Electric Vehicle Benefits and ... - Alternative Fu",
+        "Electric Vehicle Myths | US EPA",
+        "Three big reasons Americans haven't rapidly adopte",
+        "EVO Report 2024 | BloombergNEF | Bloomberg Finance"
+      ],
+      "tokens": 1213,
+      "time": 3.866830587387085
+    },
+    "graph_rag": {
+      "answer": "# Biến Đổi Phát Thải Vòng Đời EV Theo Nguồn Điện\n\nDựa trên Knowledge Graph, **nguồn điện có ảnh hưởng trực tiếp đến phát thải vòng đời của EV**:\n\n## Thông tin từ Graph:\n- **EV sản xuất lượng khí nhà kính thấp hơn** xe xăng\n- **Hiệu suất năng lượng cao**: EV sử dụng 87%-91% năng lượng\n- **Năm 2020**, năng lượng tái tạo trở thành **nguồn điện phổ biến thứ hai** ở Mỹ\n\n## Ý Nghĩa:\nKhi điện lưới được tạo từ **năng lượng tái tạo** (gió, mặt trời), phát thải vòng đời EV giảm đáng kể. Ngược lại, nếu dùng **điện từ nhiên liệu hóa thạch**, phát thải sẽ cao hơn.\n\n**Lưu ý**: Graph không cung cấp số liệu cụ thể so sánh phát thải giữa các loại nguồn điện khác nhau.",
+      "seed_nodes": [
+        "automotive, oil, electricity, infrastructure and battery materials",
+        "lower greenhouse gas emissions than gasoline cars",
+        "Tax credits for EV buyers and emissions limits",
+        "second-most prevalent U.S. electricity source",
+        "emissions for EV with 300-mile electric range"
+      ],
+      "facts_count": 11,
+      "facts_sample": [
+        "Electric Vehicle Outlook --[COVERS_MARKETS]--> automotive, oil, electricity, infrastructure and battery materials",
+        "Electric Vehicle Outlook --[ANALYZES]--> electrification and shared mobility",
+        "EVs --[PRODUCE]--> lower greenhouse gas emissions than gasoline cars"
+      ],
+      "tokens": 771,
+      "time": 4.564549207687378
+    }
+  },
+  {
+    "question": "Q19: What challenges do EV manufacturers face in scaling up production in 2024?",
+    "flat_rag": {
+      "answer": "# Trả lời\n\nDựa vào các đoạn văn bản cung cấp, thông tin cụ thể về các thách thức mà các nhà sản xuất xe điện phải đối mặt khi mở rộng sản xuất vào năm 2024 **rất hạn chế**.\n\nTuy nhiên, các thách thức được đề cập bao gồm:\n\n1. **Thiếu chip (Chip shortage)**: Vẫn là một vấn đề đang diễn ra ảnh hưởng đến sản xuất ô tô.\n\n2. **Tốc độ áp dụng chậm**: Ở Mỹ, việc chấp nhận xe điện diễn ra chậm hơn dự kiến, chỉ từ 65,000 chiếc (2017) lên 800,000 chiếc, cho thấy nhu cầu thị trường không cao như kỳ vọng.\n\n3. **Các thách thức kinh tế**: Năm 2024 gặp nhiều thách thức và xu hướng khác nhau trong ngành ô tô.\n\nCác đoạn văn bản không cung cấp chi tiết đầy đủ về các thách thức sản xuất cụ thể vào năm 2024.",
+      "sources": [
+        "How Innovative Is China in the Electric Vehicle an",
+        "How Innovative Is China in the Electric Vehicle an",
+        "Battery trends 2022: an industry view on the devel",
+        "2024 Economic Trends Impacting the Auto Industry -",
+        "Three big reasons Americans haven't rapidly adopte"
+      ],
+      "tokens": 1369,
+      "time": 4.3769590854644775
+    },
+    "graph_rag": {
+      "answer": "# Những Thách Thức Trong Việc Mở Rộng Sản Xuất EV Năm 2024\n\nDựa trên Knowledge Graph, các thách thức chính bao gồm:\n\n**1. Chuỗi cung ứng pin:**\n- CATL và FDB chiếm hơn 50% sản xuất pin EV toàn cầu, tạo ra sự phụ thuộc cao vào Trung Quốc\n- Sản xuất pin EV yêu cầu năng lượng bổ sung đáng kể so với sản xuất xe xăng\n\n**2. Vấn đề chip bán dẫn:**\n- Các biện pháp (BIS) nhằm cản trở khả năng sản xuất chip tiên tiến của Trung Quốc ảnh hưởng đến toàn bộ ngành\n\n**3. Cạnh tranh địa geopolitical:**\n- Trung Quốc chiếm 62% sản xuất EV toàn cầu (2022), xe Trung Quốc gây áp lực lên sản xuất Mỹ\n\n**Chú ý:** Knowledge Graph không cung cấp chi tiết về các thách thức khác như nguồn cung nguyên liệu thô, công suất nhà máy, hay yêu cầu vốn đầu tư.",
+      "seed_nodes": [
+        "China's advanced-node semiconductor production capability",
+        "additional energy compared to gasoline car production",
+        "over one-half of global EV battery production",
+        "62 percent of global EV production in 2022",
+        "United States automotive production"
+      ],
+      "facts_count": 8,
+      "facts_sample": [
+        "BIS --[DESIGNED_TO_IMPAIR]--> China's advanced-node semiconductor production capability",
+        "EV battery manufacturing --[REQUIRES]--> additional energy compared to gasoline car production",
+        "CATL and FDB --[ACCOUNT_FOR]--> over one-half of global EV battery production"
+      ],
+      "tokens": 742,
+      "time": 4.949955463409424
+    }
+  },
+  {
+    "question": "Q20: How does the combination of federal incentives, ZEV regulations, and charging infrastructure drive EV adoption?",
+    "flat_rag": {
+      "answer": "# Trả lời câu hỏi Q20\n\nDựa vào các đoạn văn bản được cung cấp, **không có thông tin cụ thể** về cách kết hợp các yếu tố sau thúc đẩy việc áp dụng xe điện:\n- Các ưu đãi liên bang (federal incentives)\n- Quy định ZEV (Zero Emission Vehicle)\n- Hạ tầng sạc điện (charging infrastructure)\n\nCác nguồn chỉ đề cập rằng \"các tiểu bang và thành phố có thành công lớn nhất trên thị trường xe điện tiếp tục có những hành động mạnh mẽ nhất từ các cơ quan nhà nước, địa phương và công ty tiện ích\", nhưng không chi tiết cơ chế hoạt động của ba yếu tố trên.\n\nĐể trả lời câu hỏi này một cách đầy đủ, cần các nguồn tài liệu bổ sung có tập trung vào chính sách và hạ tầng.",
+      "sources": [
+        "Evaluating electric vehicle market growth across U",
+        "Electric Vehicles: Slow, then Fast",
+        "Electric Vehicles: Slow, then Fast",
+        "Exploring consumer sentiment on electric-vehicle c",
+        "Americans' views of electric cars as gas alternati"
+      ],
+      "tokens": 1327,
+      "time": 3.8751137256622314
+    },
+    "graph_rag": {
+      "answer": "# Cách Federal Incentives, ZEV Regulations và Charging Infrastructure Thúc Đẩy EV Adoption\n\nDựa trên Knowledge Graph:\n\n**1. Federal Incentives (Ưu đãi liên bang):**\n- Chính phủ Mỹ cung cấp **tax credit $7,500** cho mua EV\n- Hỗ trợ công quỹ cho các dự án sạc điện trước khi đạt điểm hòa vốn\n\n**2. ZEV Regulations (Quy định khí thải zero):**\n- Joint Office of Energy and Transportation thiết lập **chuẩn mực và khung pháp lý** cho ngành sạc EV\n- Tăng tốc độ **các dự án vận tải phát thải zero**\n\n**3. Charging Infrastructure (Hạ tầng sạc):**\n- Chính phủ **bổ sung đầu tư tư nhân** vào hạ tầng sạc\n- Hợp tác với **khu vực tư nhân**\n\n**Kết quả:**\n- Mỹ bán **317,168 EV trong Q4 2023**\n- Người tiêu dùng có **xu hướng xem xét EV**, mặc dù chỉ **17% tự tin về hạ tầng sạc**\n\nTổng hợp: Ba yếu tố này tạo **quy khung chính sách, hỗ trợ tài chính và hạ tầng vật lý** để khuyến khích người tiêu dùng chuyển sang EV.",
+      "seed_nodes": [
+        "standards and frameworks for the electric vehicle charging industry",
+        "automotive, oil, electricity, infrastructure and battery materials",
+        "private investment in zero-emission EV charging infrastructure",
+        "17% extremely or very confident in EV infrastructure",
+        "charging projects before financial break-even point"
+      ],
+      "facts_count": 12,
+      "facts_sample": [
+        "Joint Office of Energy and Transportation --[ESTABLISHED]--> standards and frameworks for the electric vehicle charging industry",
+        "Joint Office of Energy and Transportation --[ACCELERATES]--> zero-emission fueling and transportation projects",
+        "Joint Office of Energy and Transportation --[SUPPORTS]--> electrical distribution and transmission innovation"
+      ],
+      "tokens": 889,
+      "time": 5.310500383377075
+    }
+  }
+]

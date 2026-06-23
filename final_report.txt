@@ -1,0 +1,53 @@
+
+================================================================================
+BÁO CÁO KẾT QUẢ: LAB DAY 19 – GRAPHRAG SYSTEM
+Dataset: US Electric Vehicle Sector Corpus (70 documents)
+================================================================================
+
+1. KNOWLEDGE GRAPH STATISTICS
+   ├── Tổng documents xử lý : 70
+   ├── Tổng triples trích xuất: 655
+   ├── Sau deduplication    : 622
+   ├── Nodes (Entities)     : 889
+   ├── Edges (Relations)    : 622
+   └── Avg node degree      : 1.40
+
+2. INDEXING COST (Entity Extraction)
+   ├── Model                : claude-haiku-4-5-20251001
+   ├── Tokens dùng          : 97,249
+   ├── Thời gian            : 220.2s
+   └── Ước tính chi phí     : ~$0.0438 USD
+
+3. QUERYING COST (20 câu hỏi benchmark)
+   ┌─────────────────┬───────────────┬───────────────┐
+   │ Metric          │ Flat RAG      │ GraphRAG      │
+   ├─────────────────┼───────────────┼───────────────┤
+   │ Total tokens    │        26,715 │        15,134 │
+   │ Avg tokens/Q    │         1,335 │           756 │
+   │ Total time      │        76.97s │        90.34s │
+   │ Avg time/Q      │         3.85s │         4.52s │
+   │ Est. cost       │ $      0.0120 │ $      0.0068 │
+   └─────────────────┴───────────────┴───────────────┘
+
+4. TỔNG CHI PHÍ HỆ THỐNG
+   ├── Flat RAG  (chỉ query)        : $0.0120 USD
+   ├── GraphRAG  (indexing + query)  : $0.0506 USD
+   └── Overhead indexing GraphRAG   : $0.0438 USD (trả 1 lần, dùng mãi)
+
+5. KẾT LUẬN
+   ✅ GraphRAG VƯỢT TRỘI Flat RAG trong:
+      • Câu hỏi multi-hop (Nikola → Iveco → Europe)
+      • Câu hỏi tổng hợp đa entity (EV adoption drivers)
+      • Câu hỏi về quan hệ giữa các tổ chức
+      • Độ chính xác số liệu (ít bị lẫn lộn giữa các periods)
+
+   ⚠️  Flat RAG HIỆU QUẢ HƠN trong:
+      • Chi phí khởi đầu (không cần indexing)
+      • Câu hỏi single-hop đơn giản
+      • Câu hỏi cần trích dẫn đoạn văn dài
+
+   💡 KHUYẾN NGHỊ:
+      • Dùng GraphRAG khi corpus ổn định và cần reasoning phức tạp
+      • Chi phí indexing ~$0.044 USD là "một lần" → mỗi query tiết kiệm hơn về độ chính xác
+      • Kết hợp hybrid (Graph + Vector) cho kết quả tốt nhất
+================================================================================
